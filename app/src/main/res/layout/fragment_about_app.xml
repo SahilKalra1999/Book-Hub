@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.AboutAppFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/txtAboutApp"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:text="This app shows the books description fetched from API using Json and also provide a features to add any book into the favorite section. Basically, this app is just a temporary app and it doesn't provide the actual content and story inside the books, it just shows the book name, author name and book price.. " />
+
+</RelativeLayout>
